@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+}
+
+.App {
+  background-color: darkslategrey;
+  height: 100vh;
+  text-align: center;
+}
+
+.title{
+  color: #fff;
+  font-size: x-large;
+}
+input{
+  margin-top: 2rem;
+  width: 400px;
+  border: 0;
+  outline: 0;
+  background-color:cadetblue;
+  border-bottom: 3px solid #fff;
+  background: transparent;
+  transition: border-color 0.2s;
+  size: 50px;
+  &::placeholder{
+    color: #c6c4c4;
+    font-size: medium;
+  }
+ 
+}
+
+input:focus{
+  font-size: 1rem;
+  color: #e2e0e0;
+}
+
+.weather-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.weather-container .weather-detail{
+  margin: 3rem 1rem  ;
+  font-size: large;
+  background-color: #e2e0e0;
+  padding: 3rem 2rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.weather-detail img{
+  width: 6rem;
+}
+.weather-detail p{
+  margin-top: 1rem;
+}
